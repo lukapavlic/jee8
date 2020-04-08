@@ -3,16 +3,16 @@ Celovite platfome (Windows Zip)
 
 Datoteke, ki so na voljo:
 - [javaee8.zip](http://164.8.250.220/jee8/javaee8.zip) ~970MB [Info](#javaee8)
-- [jee8_complete.zip](http://164.8.250.220/jee8/jee8_complete.zip) ~1.21GB [Info](#jee8_complete)
-- [jee8_eclipse_wildfly.zip](http://164.8.250.220/jee8/jee8_eclipse_wildfly.zip) ~955MB [Info](#jee8_eclipse_wildfly)
-- [jee8_eclipse_wildfly_mysql.zip](http://164.8.250.220/jee8/jee8_eclipse_wildfly_mysql.zip) ~1.02GB [Info](#jee8_eclipse_wildfly_mysql)
-- [jee8_eclipse_wildfly_pqsql.zip](http://164.8.250.220/jee8/jee8_eclipse_wildfly_pqsql.zip) ~1.02GB [Info](#jee8_eclipse_wildfly_pqsql)
-- [wildfly-19.0.0.Final.standalone.zip](http://164.8.250.220/jee8/wildfly-19.0.0.Final.standalone.zip) ~3MB [Info](#wildfly19_update)
+- [jee8_complete.zip](http://164.8.250.220/jee8/jee8_complete.zip) ~1.21GB [Info](#jee8_complete) [Build log](#BuildLog)
+- [jee8_eclipse_wildfly.zip](http://164.8.250.220/jee8/jee8_eclipse_wildfly.zip) ~955MB [Info](#jee8_eclipse_wildfly) [Build log](#BuildLog)
+- [jee8_eclipse_wildfly_mysql.zip](http://164.8.250.220/jee8/jee8_eclipse_wildfly_mysql.zip) ~1.02GB [Info](#jee8_eclipse_wildfly_mysql) [Build log](#BuildLog)
+- [jee8_eclipse_wildfly_pqsql.zip](http://164.8.250.220/jee8/jee8_eclipse_wildfly_pqsql.zip) ~1.02GB [Info](#jee8_eclipse_wildfly_pqsql) [Build log](#BuildLog)
+- [wildfly-19.0.0.Final.standalone.zip](http://164.8.250.220/jee8/wildfly-19.0.0.Final.standalone.zip) ~3MB [Info](#wildfly19_update) [Build log](#BuildLog)
 
 
 
 # javaee8
-[download](http://164.8.250.220/jee8/javaee8.zip) ~970MB [Info](#link)
+[download](http://164.8.250.220/jee8/javaee8.zip) ~970MB
 
 ### Vsebina paketa:
 - JDK 1.8.0
@@ -24,7 +24,7 @@ Datoteke, ki so na voljo:
 
 ### Navodila:
 
-- Razpakirati v **C:\javaee8**
+- Razpakirati v `C:\javaee8`
 - WildFly admin: u:user, p:user
 - Wildfly app user: u:guest, p:guest; role: guest
 - Postgresql: u:postgres, p:postgres
@@ -48,7 +48,7 @@ Datoteke, ki so na voljo:
 
 ### Navodila:
 
-- Razpakirati v **C:\jee8**
+- Razpakirati v `C:\jee8`
 - WildFly port: 28080
 - WildFly admin: u:user, p:user
 - Wildfly app user: u:guest, p:guest; role: guest
@@ -72,7 +72,7 @@ Datoteke, ki so na voljo:
 
 ### Navodila:
 
-- Razpakirati v **C:\jee8**
+- Razpakirati v `C:\jee8`
 - WildFly port: 28080
 - WildFly admin: u:user, p:user
 - Wildfly app user: u:guest, p:guest; role: guest
@@ -95,7 +95,7 @@ Datoteke, ki so na voljo:
 
 ### Navodila:
 
-- Razpakirati v **C:\jee8**
+- Razpakirati v `C:\jee8`
 - WildFly port: 28080
 - WildFly admin: u:user, p:user
 - Wildfly app user: u:guest, p:guest; role: guest
@@ -120,7 +120,7 @@ Datoteke, ki so na voljo:
 
 ### Navodila:
 
-- Razpakirati v **C:\jee8**
+- Razpakirati v `C:\jee8`
 - WildFly port: 28080
 - WildFly admin: u:user, p:user
 - Wildfly app user: u:guest, p:guest; role: guest
@@ -135,19 +135,19 @@ Datoteke, ki so na voljo:
 # wildfly19_update
 [download](http://164.8.250.220/jee8/wildfly-19.0.0.Final.standalone.zip) ~3MB
 
-Navodila:
+To je dodatek za [Wildfly 19](https://wildfly.org/downloads/).
+
+Vsebina dodatka:
+- JDBC gonilnik za Postgresql (42.2.12)
+- JDBC gonilnik za MySql (Connector/J 8.0.19)
+- WildFly porti: +20000 (28080 ...)
+- WildFly admin: u:user, p:user
+- Wildfly app user: u:guest, p:guest; role: guest
+- DS JNDI: java:jboss/datasources/mysqlds --> mysql (127.0.0.1:3306/testdb; u:root, p:root)
+- DS JNDI: java:jboss/datasources/postgresds --> postgresql (testdb)
+- Queue JNDI: jms/queue/test
+- Topic JNDI: jms/topic/test
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-## Build log
+## BuildLog
