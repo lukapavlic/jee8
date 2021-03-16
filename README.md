@@ -1,6 +1,8 @@
 # Java/Jakarta EE8
 Celovite platfome (Windows Zip)
 
+**Ta repozitorij več ni vzdrževan!**
+
 Priporočeno::
 - [jee8_complete.zip](http://164.8.250.220/jee8/jee8_complete.zip) ~1.21GB [Info](#jee8_complete) [Build log](#BuildLog)
 - [wildfly-19.0.0.Final.standalone.zip](http://164.8.250.220/jee8/wildfly-19.0.0.Final.standalone.zip) ~3MB [Info](#wildfly19_update) [Build log](#BuildLog)
